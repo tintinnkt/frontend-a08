@@ -1,3 +1,4 @@
+"use client";
 import { Suspense } from "react";
 import LinearProgress from "@mui/material/LinearProgress";
 import VenueCatalog from "@/components/VenueCatalog";

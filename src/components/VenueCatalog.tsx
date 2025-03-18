@@ -1,3 +1,4 @@
+"use client";
 import { VenueJson } from "@/types/venue";
 import Card from "./Card";
 

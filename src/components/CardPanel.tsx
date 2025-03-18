@@ -39,7 +39,7 @@ export default function CardPanel() {
         {venues.map((venue) => (
           <li key={venue.name}>
             <Link href={`/venue/${venue.vid}`}>
-              <Card venue={venue} onRatingChange={handleRatingChange} />
+              {/* <Card venue={venue} onRatingChange={handleRatingChange} /> */}
             </Link>
           </li>
         ))}
